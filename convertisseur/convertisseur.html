@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>convertisseur</title>
+    <link rel="stylesheet" href="CSS\convert.css">
+    <link rel="icon" type="image/png" href="RESSOURCES\swap.png">
+</head>
+
+<body>
+
+    <div class="img">
+        <img src="RESSOURCES\projects.jpg" alt="" id="top">
+    </div>
+
+    <div class="page">
+
+        <div class="objects">
+            <h1 id="monTitre">CONVERTISSEUR</h1>
+
+            <div class="content">
+
+                <div class="input">
+                    <input type="text" id="box1" value="" />
+
+                    <label for="input-type">Input Type</label>
+                    <select name="in_" id="input-type">
+                        <option value="null">-</option>
+                        <option value="dec">decimal</option>
+                        <option value="bin">binaire</option>
+                        <option value="hexa">hexadecimal</option>
+                    </select>
+                </div>
+
+                <div class="swap">
+                    <button id="swap">⇿</button>
+                </div>
+
+                <div class="output">
+                    <input type="text" id="box2" value="" disabled />
+
+                    <label for="output-type">Output Type</label>
+                    <select name="out_" id="output-type">
+                        <option value="null">-</option>
+                        <option value="dec">decimal</option>
+                        <option value="bin">binaire</option>
+                        <option value="hexa">hexadecimal</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button id="clear">CLEAR</button>
+
+            <div class="txt">
+                <p>Convertisseur en fonction : <br>
+                    - Exadecimal to binaire <br>
+                    - binaire to decimal <br>
+                    - decimal to binaire</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="JS\convertisseur.js"></script>
+</body>
+
+</html>
