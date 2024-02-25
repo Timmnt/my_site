@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+.img img{
+    width: 100%;
+}
+
+.object {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    margin-top: -55%;
+    margin-left: 3%;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+}
+
+.input input {
+    background-color: #222338c2;
+    border-radius: 0.5em;
+    font-size: 2em;
+    color: white;
+
+    padding: 1%;
+    padding-left: 2%;
+
+    border: transparent;
+}
+
+.input input:focus {
+    background-color: #222338;
+
+}
+
+.input select {
+    background-color: #222338c2;
+    border-radius: 0.5em;
+    font-size: 2em;
+    color: white;
+
+    padding: 1%;
+
+    border: transparent;
+}
+
+.input select:focus {
+    background-color: #222338;
+}
+
+.swap {
+    margin-left: 2.5%;
+}
+
+.swap button {
+    height: 100%;
+
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5%;
+    width: 40%;
+}
+
+.output select {
+    background-color: #222338c2;
+    border-radius: 0.5em;
+    font-size: 2em;
+    color: white;
+
+
+    padding: 1%;
+    padding-left: 2%;
+
+    border: transparent;
+}
+
+.output select:focus {
+    background-color: #222338;
+}
+
+.output input {
+    background-color: #222338c2;
+    border-radius: 0.5em;
+    font-size: 2em;
+    color: white;
+
+    padding: 1%;
+
+    border: transparent;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+#clear {
+    margin-top: 2%;
+}
+
+button {
+    background-color: #222338;
+    border-radius: 0.5em;
+    font-size: 2em;
+    color: white;
+
+    text-align: center;
+
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    border: transparent;
+}
+
+button:hover {
+    background-color: #171829;
+    animation: .1s;
+}
+
+button:active {
+    background-color: #222338;
+    animation: .1s;
+}
+
+.txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
