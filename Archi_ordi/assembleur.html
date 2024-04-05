@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Architecture d'un ordinateur</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="pictures/computer_FILL0_wght400_GRAD0_opsz24.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Le langage Assembleur</h1>
+        <div class="menu">
+            <ul>
+                <li><a href="architecture.html">◉ Accueil</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="article">
+                <h3>L'assembleur</h3>
+                <img src="pictures/assembleur.png" width="850em">
+                <p id="assembleur">
+                    <U>Le langage assembleur</U> est le langage le plus proche de l'ordinateur lisible par 
+                    l'humain. C'est un langage <br>
+                    dit bas niveau. Il est celui qui se rapproche le plus de ce que l'ordinateur 
+                    comprend c'est à dire le binaire. <br>
+                    Mais puisque le binaire est très compliqué à lire pour un humain nous 
+                    créons des langages plus ou moins <br>
+                    proches de la machine afin de communiquer avec elle. C'est dans ce but qu'est 
+                    né l'assembleur en <strong>1949</strong>. <br>
+                    <br>
+                    Il existe une multitude d'autres langages plus ou moins proches de la machine et donc
+                    plus ou moins faciles à <br>
+                    apprendre. <U>Le langage python</U> créé en <strong>1991</strong> est un langage dit interprété. Cela signifie qu'il 
+                    n'est pas analysé <br> et traduit en langage machine une fois pour toutes mais à chaque
+                    exécution du programme <br>
+                    et qu'il est nécessaire d'utiliser un interpréteur à chaque exécution. Ainsi les 
+                    langages interpretés <br>
+                    comme le python sont beaucoup plus simples à apprendre et sont bien pour debuter
+                    mais en contrepartie ils <br> 
+                    sont bien moins efficaces et demandent bien plus de ressources en comparaison 
+                    à un langage bas niveau.
+                </p>
+            </div>
+            <div class="code">
+                <h3>Assembleur VS Python</h3>
+                <p>
+                    Variable : <br>
+                    <strong>• python</strong> : a = 1 <br>
+                    <strong>• Assembleur</strong> : mov eax, 5 <br> <br>
+                    Addition : <br>
+                    <strong>• python</strong> : c = a + b <br>
+                    <strong>• Assembleur</strong> : add eax, ebx <br>
+                    mov c, eax <br> <br>
+                    Boucle : <br>
+                    <strong>• python</strong> : for i in range(a, b) <br>
+                    <strong>• Assembleur</strong> : <br> mov ecx, a <br>
+                    mov eax, 0 <br>
+                    loop_start: <br>
+                      push eax <br>
+                      pop eax <br>
+                      inc eax <br>
+                      loop loop_start<br>
+
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
