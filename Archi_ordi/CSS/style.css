@@ -1,0 +1,118 @@
+body {
+    background-color: #00BDC8;
+}
+
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3em;
+    font-style: normal;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h3{
+    margin-top: -0.1em;
+    display: flex;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 0.5em;
+    font-style: normal;
+    color: white;
+    font-size: 1.5em; 
+}
+
+#titre{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3em;
+    font-style: normal;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-top: -4em;
+    color: white;
+}
+
+#bandeau{
+    margin-left: -3em;
+    margin-top: -3em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    /* transition: 0.3s; */
+
+}
+
+.menu ul li {
+    display: flex;
+    flex-direction: column;
+    width: 8.9em;
+    list-style: none;
+    padding: 0.2em;
+    margin: 0.1em;
+    font-size: 1.8em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3em;
+    font-style: normal;
+}
+.menu ul li a{
+    transition: 0.3s;
+}
+
+.menu ul li :hover{
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    color: #FBCE9E;
+    filter: drop-shadow(15px 5px 5px #734158)
+}
+
+a{
+    color: #734158;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+.article{
+    background-color: #d8907b;
+    border-radius: 1.5em;
+    padding: 1em;
+    justify-content: center;
+    margin-right: 1em;    
+}
+
+.article img{
+    border-radius: 1.5em;
+}
+
+#assembleur{
+    font-size: 1.2em;
+}
+
+.code{
+    background-color: #d3a090;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+p{
+    font-size: 1.2em;
+}
